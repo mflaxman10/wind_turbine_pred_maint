@@ -1,0 +1,2550 @@
+[
+  {
+    "date": "2015-10-07",
+    "value": 0.6648,
+    "type": "warning",
+    "component": "Converter",
+    "turbineId": 1
+  },
+  {
+    "date": "2017-09-29",
+    "value": 0.8824,
+    "type": "alarm",
+    "component": "Converter",
+    "turbineId": 1
+  },
+  {
+    "date": "2018-03-25",
+    "value": 0.6614,
+    "type": "warning",
+    "component": "Converter",
+    "turbineId": 1
+  },
+  {
+    "date": "2019-03-20",
+    "value": 0.6653,
+    "type": "warning",
+    "component": "Converter",
+    "turbineId": 1
+  },
+  {
+    "date": "2020-03-14",
+    "value": 0.9408,
+    "type": "warning",
+    "component": "Converter",
+    "turbineId": 1
+  },
+  {
+    "date": "2020-03-17",
+    "value": 0.8842,
+    "type": "alarm",
+    "component": "Converter",
+    "turbineId": 1
+  },
+  {
+    "date": "2022-09-03",
+    "value": 0.8849,
+    "type": "alarm",
+    "component": "Converter",
+    "turbineId": 1
+  },
+  {
+    "date": "2023-02-27",
+    "value": 0.6701,
+    "type": "warning",
+    "component": "Converter",
+    "turbineId": 1
+  },
+  {
+    "date": "2024-02-22",
+    "value": 0.66,
+    "type": "warning",
+    "component": "Converter",
+    "turbineId": 1
+  },
+  {
+    "date": "2024-08-20",
+    "value": 0.6562,
+    "type": "warning",
+    "component": "Converter",
+    "turbineId": 1
+  },
+  {
+    "date": "2025-02-16",
+    "value": 0.9376,
+    "type": "warning",
+    "component": "Converter",
+    "turbineId": 1
+  },
+  {
+    "date": "2025-02-19",
+    "value": 0.8734,
+    "type": "alarm",
+    "component": "Converter",
+    "turbineId": 1
+  },
+  {
+    "date": "2017-09-24",
+    "value": 0.875,
+    "type": "alarm",
+    "component": "Generator",
+    "turbineId": 1
+  },
+  {
+    "date": "2018-03-20",
+    "value": 0.6666,
+    "type": "warning",
+    "component": "Generator",
+    "turbineId": 1
+  },
+  {
+    "date": "2018-09-16",
+    "value": 0.6713,
+    "type": "warning",
+    "component": "Generator",
+    "turbineId": 1
+  },
+  {
+    "date": "2019-03-15",
+    "value": 0.6679,
+    "type": "warning",
+    "component": "Generator",
+    "turbineId": 1
+  },
+  {
+    "date": "2020-03-09",
+    "value": 0.9281,
+    "type": "warning",
+    "component": "Generator",
+    "turbineId": 1
+  },
+  {
+    "date": "2020-03-12",
+    "value": 0.8816,
+    "type": "alarm",
+    "component": "Generator",
+    "turbineId": 1
+  },
+  {
+    "date": "2021-03-04",
+    "value": 0.6627,
+    "type": "warning",
+    "component": "Generator",
+    "turbineId": 1
+  },
+  {
+    "date": "2022-08-29",
+    "value": 0.8883,
+    "type": "alarm",
+    "component": "Generator",
+    "turbineId": 1
+  },
+  {
+    "date": "2024-02-17",
+    "value": 0.6586,
+    "type": "warning",
+    "component": "Generator",
+    "turbineId": 1
+  },
+  {
+    "date": "2025-02-14",
+    "value": 0.8859,
+    "type": "alarm",
+    "component": "Generator",
+    "turbineId": 1
+  },
+  {
+    "date": "2016-03-12",
+    "value": 0.6627,
+    "type": "warning",
+    "component": "Nacelle",
+    "turbineId": 1
+  },
+  {
+    "date": "2017-09-06",
+    "value": 0.8807,
+    "type": "alarm",
+    "component": "Nacelle",
+    "turbineId": 1
+  },
+  {
+    "date": "2020-02-20",
+    "value": 0.9402,
+    "type": "warning",
+    "component": "Nacelle",
+    "turbineId": 1
+  },
+  {
+    "date": "2020-02-23",
+    "value": 0.8859,
+    "type": "alarm",
+    "component": "Nacelle",
+    "turbineId": 1
+  },
+  {
+    "date": "2021-02-14",
+    "value": 0.6696,
+    "type": "warning",
+    "component": "Nacelle",
+    "turbineId": 1
+  },
+  {
+    "date": "2021-08-13",
+    "value": 0.66,
+    "type": "warning",
+    "component": "Nacelle",
+    "turbineId": 1
+  },
+  {
+    "date": "2022-02-09",
+    "value": 0.6633,
+    "type": "warning",
+    "component": "Nacelle",
+    "turbineId": 1
+  },
+  {
+    "date": "2022-08-11",
+    "value": 0.8798,
+    "type": "alarm",
+    "component": "Nacelle",
+    "turbineId": 1
+  },
+  {
+    "date": "2023-02-04",
+    "value": 0.6592,
+    "type": "warning",
+    "component": "Nacelle",
+    "turbineId": 1
+  },
+  {
+    "date": "2024-01-30",
+    "value": 0.6591,
+    "type": "warning",
+    "component": "Nacelle",
+    "turbineId": 1
+  },
+  {
+    "date": "2025-01-24",
+    "value": 0.9345,
+    "type": "warning",
+    "component": "Nacelle",
+    "turbineId": 1
+  },
+  {
+    "date": "2025-01-27",
+    "value": 0.8743,
+    "type": "alarm",
+    "component": "Nacelle",
+    "turbineId": 1
+  },
+  {
+    "date": "2016-03-11",
+    "value": 0.6573,
+    "type": "warning",
+    "component": "Rotor",
+    "turbineId": 1
+  },
+  {
+    "date": "2017-09-02",
+    "value": 0.9392,
+    "type": "warning",
+    "component": "Rotor",
+    "turbineId": 1
+  },
+  {
+    "date": "2017-09-05",
+    "value": 0.8909,
+    "type": "alarm",
+    "component": "Rotor",
+    "turbineId": 1
+  },
+  {
+    "date": "2018-03-01",
+    "value": 0.6644,
+    "type": "warning",
+    "component": "Rotor",
+    "turbineId": 1
+  },
+  {
+    "date": "2018-08-28",
+    "value": 0.6728,
+    "type": "warning",
+    "component": "Rotor",
+    "turbineId": 1
+  },
+  {
+    "date": "2020-02-22",
+    "value": 0.8868,
+    "type": "alarm",
+    "component": "Rotor",
+    "turbineId": 1
+  },
+  {
+    "date": "2021-08-12",
+    "value": 0.6737,
+    "type": "warning",
+    "component": "Rotor",
+    "turbineId": 1
+  },
+  {
+    "date": "2022-08-10",
+    "value": 0.8774,
+    "type": "alarm",
+    "component": "Rotor",
+    "turbineId": 1
+  },
+  {
+    "date": "2025-01-26",
+    "value": 0.8887,
+    "type": "alarm",
+    "component": "Rotor",
+    "turbineId": 1
+  },
+  {
+    "date": "2016-08-12",
+    "value": 0.6733,
+    "type": "warning",
+    "component": "Tower",
+    "turbineId": 1
+  },
+  {
+    "date": "2017-08-10",
+    "value": 0.8824,
+    "type": "alarm",
+    "component": "Tower",
+    "turbineId": 1
+  },
+  {
+    "date": "2019-07-28",
+    "value": 0.6652,
+    "type": "warning",
+    "component": "Tower",
+    "turbineId": 1
+  },
+  {
+    "date": "2020-01-24",
+    "value": 0.9426,
+    "type": "warning",
+    "component": "Tower",
+    "turbineId": 1
+  },
+  {
+    "date": "2020-01-27",
+    "value": 0.882,
+    "type": "alarm",
+    "component": "Tower",
+    "turbineId": 1
+  },
+  {
+    "date": "2021-07-17",
+    "value": 0.6691,
+    "type": "warning",
+    "component": "Tower",
+    "turbineId": 1
+  },
+  {
+    "date": "2022-07-12",
+    "value": 0.9326,
+    "type": "warning",
+    "component": "Tower",
+    "turbineId": 1
+  },
+  {
+    "date": "2022-07-15",
+    "value": 0.8888,
+    "type": "alarm",
+    "component": "Tower",
+    "turbineId": 1
+  },
+  {
+    "date": "2023-01-08",
+    "value": 0.6674,
+    "type": "warning",
+    "component": "Tower",
+    "turbineId": 1
+  },
+  {
+    "date": "2024-12-31",
+    "value": 0.8772,
+    "type": "alarm",
+    "component": "Tower",
+    "turbineId": 1
+  },
+  {
+    "date": "2017-01-22",
+    "value": 0.6731,
+    "type": "warning",
+    "component": "Transformer",
+    "turbineId": 1
+  },
+  {
+    "date": "2017-07-21",
+    "value": 0.9422,
+    "type": "warning",
+    "component": "Transformer",
+    "turbineId": 1
+  },
+  {
+    "date": "2017-07-24",
+    "value": 0.889,
+    "type": "alarm",
+    "component": "Transformer",
+    "turbineId": 1
+  },
+  {
+    "date": "2018-01-17",
+    "value": 0.6617,
+    "type": "warning",
+    "component": "Transformer",
+    "turbineId": 1
+  },
+  {
+    "date": "2019-07-11",
+    "value": 0.6747,
+    "type": "warning",
+    "component": "Transformer",
+    "turbineId": 1
+  },
+  {
+    "date": "2020-01-10",
+    "value": 0.8934,
+    "type": "alarm",
+    "component": "Transformer",
+    "turbineId": 1
+  },
+  {
+    "date": "2021-01-01",
+    "value": 0.6705,
+    "type": "warning",
+    "component": "Transformer",
+    "turbineId": 1
+  },
+  {
+    "date": "2021-12-27",
+    "value": 0.675,
+    "type": "warning",
+    "component": "Transformer",
+    "turbineId": 1
+  },
+  {
+    "date": "2022-06-28",
+    "value": 0.8905,
+    "type": "alarm",
+    "component": "Transformer",
+    "turbineId": 1
+  },
+  {
+    "date": "2023-06-20",
+    "value": 0.6601,
+    "type": "warning",
+    "component": "Transformer",
+    "turbineId": 1
+  },
+  {
+    "date": "2024-12-14",
+    "value": 0.8758,
+    "type": "alarm",
+    "component": "Transformer",
+    "turbineId": 1
+  },
+  {
+    "date": "2017-07-13",
+    "value": 0.8933,
+    "type": "alarm",
+    "component": "Transmission",
+    "turbineId": 1
+  },
+  {
+    "date": "2019-01-01",
+    "value": 0.6601,
+    "type": "warning",
+    "component": "Transmission",
+    "turbineId": 1
+  },
+  {
+    "date": "2019-12-27",
+    "value": 0.9469,
+    "type": "warning",
+    "component": "Transmission",
+    "turbineId": 1
+  },
+  {
+    "date": "2019-12-30",
+    "value": 0.8949,
+    "type": "alarm",
+    "component": "Transmission",
+    "turbineId": 1
+  },
+  {
+    "date": "2022-06-17",
+    "value": 0.8902,
+    "type": "alarm",
+    "component": "Transmission",
+    "turbineId": 1
+  },
+  {
+    "date": "2022-12-11",
+    "value": 0.6757,
+    "type": "warning",
+    "component": "Transmission",
+    "turbineId": 1
+  },
+  {
+    "date": "2023-06-09",
+    "value": 0.6624,
+    "type": "warning",
+    "component": "Transmission",
+    "turbineId": 1
+  },
+  {
+    "date": "2024-12-03",
+    "value": 0.8941,
+    "type": "alarm",
+    "component": "Transmission",
+    "turbineId": 1
+  },
+  {
+    "date": "2015-07-10",
+    "value": 0.6721,
+    "type": "warning",
+    "component": "Turbine",
+    "turbineId": 1
+  },
+  {
+    "date": "2016-01-06",
+    "value": 0.6717,
+    "type": "warning",
+    "component": "Turbine",
+    "turbineId": 1
+  },
+  {
+    "date": "2016-07-04",
+    "value": 0.6663,
+    "type": "warning",
+    "component": "Turbine",
+    "turbineId": 1
+  },
+  {
+    "date": "2017-06-29",
+    "value": 0.9369,
+    "type": "warning",
+    "component": "Turbine",
+    "turbineId": 1
+  },
+  {
+    "date": "2017-07-02",
+    "value": 0.8928,
+    "type": "alarm",
+    "component": "Turbine",
+    "turbineId": 1
+  },
+  {
+    "date": "2018-12-21",
+    "value": 0.6667,
+    "type": "warning",
+    "component": "Turbine",
+    "turbineId": 1
+  },
+  {
+    "date": "2019-12-16",
+    "value": 0.9287,
+    "type": "warning",
+    "component": "Turbine",
+    "turbineId": 1
+  },
+  {
+    "date": "2019-12-19",
+    "value": 0.8876,
+    "type": "alarm",
+    "component": "Turbine",
+    "turbineId": 1
+  },
+  {
+    "date": "2021-06-08",
+    "value": 0.667,
+    "type": "warning",
+    "component": "Turbine",
+    "turbineId": 1
+  },
+  {
+    "date": "2022-06-06",
+    "value": 0.8849,
+    "type": "alarm",
+    "component": "Turbine",
+    "turbineId": 1
+  },
+  {
+    "date": "2023-11-25",
+    "value": 0.6681,
+    "type": "warning",
+    "component": "Turbine",
+    "turbineId": 1
+  },
+  {
+    "date": "2024-11-19",
+    "value": 0.9378,
+    "type": "warning",
+    "component": "Turbine",
+    "turbineId": 1
+  },
+  {
+    "date": "2024-11-22",
+    "value": 0.891,
+    "type": "alarm",
+    "component": "Turbine",
+    "turbineId": 1
+  },
+  {
+    "date": "2016-01-06",
+    "value": 0.678,
+    "type": "warning",
+    "component": "Yaw",
+    "turbineId": 1
+  },
+  {
+    "date": "2016-07-04",
+    "value": 0.6608,
+    "type": "warning",
+    "component": "Yaw",
+    "turbineId": 1
+  },
+  {
+    "date": "2016-12-31",
+    "value": 0.6626,
+    "type": "warning",
+    "component": "Yaw",
+    "turbineId": 1
+  },
+  {
+    "date": "2017-07-02",
+    "value": 0.8873,
+    "type": "alarm",
+    "component": "Yaw",
+    "turbineId": 1
+  },
+  {
+    "date": "2017-12-26",
+    "value": 0.675,
+    "type": "warning",
+    "component": "Yaw",
+    "turbineId": 1
+  },
+  {
+    "date": "2018-06-24",
+    "value": 0.6725,
+    "type": "warning",
+    "component": "Yaw",
+    "turbineId": 1
+  },
+  {
+    "date": "2019-12-16",
+    "value": 0.9309,
+    "type": "warning",
+    "component": "Yaw",
+    "turbineId": 1
+  },
+  {
+    "date": "2019-12-19",
+    "value": 0.8933,
+    "type": "alarm",
+    "component": "Yaw",
+    "turbineId": 1
+  },
+  {
+    "date": "2020-06-13",
+    "value": 0.6712,
+    "type": "warning",
+    "component": "Yaw",
+    "turbineId": 1
+  },
+  {
+    "date": "2021-06-08",
+    "value": 0.6639,
+    "type": "warning",
+    "component": "Yaw",
+    "turbineId": 1
+  },
+  {
+    "date": "2021-12-05",
+    "value": 0.6709,
+    "type": "warning",
+    "component": "Yaw",
+    "turbineId": 1
+  },
+  {
+    "date": "2022-06-03",
+    "value": 0.9298,
+    "type": "warning",
+    "component": "Yaw",
+    "turbineId": 1
+  },
+  {
+    "date": "2022-06-06",
+    "value": 0.8804,
+    "type": "alarm",
+    "component": "Yaw",
+    "turbineId": 1
+  },
+  {
+    "date": "2023-11-25",
+    "value": 0.6701,
+    "type": "warning",
+    "component": "Yaw",
+    "turbineId": 1
+  },
+  {
+    "date": "2024-05-23",
+    "value": 0.6754,
+    "type": "warning",
+    "component": "Yaw",
+    "turbineId": 1
+  },
+  {
+    "date": "2024-11-22",
+    "value": 0.8824,
+    "type": "alarm",
+    "component": "Yaw",
+    "turbineId": 1
+  },
+  {
+    "date": "2025-05-18",
+    "value": 0.6679,
+    "type": "warning",
+    "component": "Yaw",
+    "turbineId": 1
+  },
+  {
+    "date": "2015-09-10",
+    "value": 0.6716,
+    "type": "warning",
+    "component": "Converter",
+    "turbineId": 2
+  },
+  {
+    "date": "2016-03-08",
+    "value": 0.6714,
+    "type": "warning",
+    "component": "Converter",
+    "turbineId": 2
+  },
+  {
+    "date": "2017-03-03",
+    "value": 0.6585,
+    "type": "warning",
+    "component": "Converter",
+    "turbineId": 2
+  },
+  {
+    "date": "2017-09-02",
+    "value": 0.8827,
+    "type": "alarm",
+    "component": "Converter",
+    "turbineId": 2
+  },
+  {
+    "date": "2020-02-16",
+    "value": 0.932,
+    "type": "warning",
+    "component": "Converter",
+    "turbineId": 2
+  },
+  {
+    "date": "2020-02-19",
+    "value": 0.8737,
+    "type": "alarm",
+    "component": "Converter",
+    "turbineId": 2
+  },
+  {
+    "date": "2022-08-07",
+    "value": 0.8749,
+    "type": "alarm",
+    "component": "Converter",
+    "turbineId": 2
+  },
+  {
+    "date": "2023-07-30",
+    "value": 0.6728,
+    "type": "warning",
+    "component": "Converter",
+    "turbineId": 2
+  },
+  {
+    "date": "2024-07-24",
+    "value": 0.6696,
+    "type": "warning",
+    "component": "Converter",
+    "turbineId": 2
+  },
+  {
+    "date": "2025-01-23",
+    "value": 0.8851,
+    "type": "alarm",
+    "component": "Converter",
+    "turbineId": 2
+  },
+  {
+    "date": "2016-08-20",
+    "value": 0.6616,
+    "type": "warning",
+    "component": "Generator",
+    "turbineId": 2
+  },
+  {
+    "date": "2017-08-18",
+    "value": 0.8839,
+    "type": "alarm",
+    "component": "Generator",
+    "turbineId": 2
+  },
+  {
+    "date": "2020-02-04",
+    "value": 0.8754,
+    "type": "alarm",
+    "component": "Generator",
+    "turbineId": 2
+  },
+  {
+    "date": "2021-07-25",
+    "value": 0.6724,
+    "type": "warning",
+    "component": "Generator",
+    "turbineId": 2
+  },
+  {
+    "date": "2022-07-23",
+    "value": 0.8774,
+    "type": "alarm",
+    "component": "Generator",
+    "turbineId": 2
+  },
+  {
+    "date": "2023-01-16",
+    "value": 0.6705,
+    "type": "warning",
+    "component": "Generator",
+    "turbineId": 2
+  },
+  {
+    "date": "2024-01-11",
+    "value": 0.6675,
+    "type": "warning",
+    "component": "Generator",
+    "turbineId": 2
+  },
+  {
+    "date": "2025-01-05",
+    "value": 0.9394,
+    "type": "warning",
+    "component": "Generator",
+    "turbineId": 2
+  },
+  {
+    "date": "2025-01-08",
+    "value": 0.8757,
+    "type": "alarm",
+    "component": "Generator",
+    "turbineId": 2
+  },
+  {
+    "date": "2016-02-16",
+    "value": 0.6749,
+    "type": "warning",
+    "component": "Nacelle",
+    "turbineId": 2
+  },
+  {
+    "date": "2017-08-12",
+    "value": 0.8882,
+    "type": "alarm",
+    "component": "Nacelle",
+    "turbineId": 2
+  },
+  {
+    "date": "2019-07-30",
+    "value": 0.6747,
+    "type": "warning",
+    "component": "Nacelle",
+    "turbineId": 2
+  },
+  {
+    "date": "2020-01-29",
+    "value": 0.8747,
+    "type": "alarm",
+    "component": "Nacelle",
+    "turbineId": 2
+  },
+  {
+    "date": "2020-07-24",
+    "value": 0.658,
+    "type": "warning",
+    "component": "Nacelle",
+    "turbineId": 2
+  },
+  {
+    "date": "2022-01-15",
+    "value": 0.6577,
+    "type": "warning",
+    "component": "Nacelle",
+    "turbineId": 2
+  },
+  {
+    "date": "2022-07-17",
+    "value": 0.8834,
+    "type": "alarm",
+    "component": "Nacelle",
+    "turbineId": 2
+  },
+  {
+    "date": "2024-01-05",
+    "value": 0.6714,
+    "type": "warning",
+    "component": "Nacelle",
+    "turbineId": 2
+  },
+  {
+    "date": "2024-07-03",
+    "value": 0.6727,
+    "type": "warning",
+    "component": "Nacelle",
+    "turbineId": 2
+  },
+  {
+    "date": "2025-01-02",
+    "value": 0.888,
+    "type": "alarm",
+    "component": "Nacelle",
+    "turbineId": 2
+  },
+  {
+    "date": "2016-01-29",
+    "value": 0.672,
+    "type": "warning",
+    "component": "Rotor",
+    "turbineId": 2
+  },
+  {
+    "date": "2016-07-27",
+    "value": 0.6613,
+    "type": "warning",
+    "component": "Rotor",
+    "turbineId": 2
+  },
+  {
+    "date": "2017-01-23",
+    "value": 0.6661,
+    "type": "warning",
+    "component": "Rotor",
+    "turbineId": 2
+  },
+  {
+    "date": "2017-07-25",
+    "value": 0.892,
+    "type": "alarm",
+    "component": "Rotor",
+    "turbineId": 2
+  },
+  {
+    "date": "2018-01-18",
+    "value": 0.6671,
+    "type": "warning",
+    "component": "Rotor",
+    "turbineId": 2
+  },
+  {
+    "date": "2020-01-11",
+    "value": 0.8915,
+    "type": "alarm",
+    "component": "Rotor",
+    "turbineId": 2
+  },
+  {
+    "date": "2021-12-28",
+    "value": 0.6661,
+    "type": "warning",
+    "component": "Rotor",
+    "turbineId": 2
+  },
+  {
+    "date": "2022-06-26",
+    "value": 0.9431,
+    "type": "warning",
+    "component": "Rotor",
+    "turbineId": 2
+  },
+  {
+    "date": "2022-06-29",
+    "value": 0.8765,
+    "type": "alarm",
+    "component": "Rotor",
+    "turbineId": 2
+  },
+  {
+    "date": "2024-12-15",
+    "value": 0.8799,
+    "type": "alarm",
+    "component": "Rotor",
+    "turbineId": 2
+  },
+  {
+    "date": "2015-08-01",
+    "value": 0.6655,
+    "type": "warning",
+    "component": "Tower",
+    "turbineId": 2
+  },
+  {
+    "date": "2017-01-22",
+    "value": 0.6642,
+    "type": "warning",
+    "component": "Tower",
+    "turbineId": 2
+  },
+  {
+    "date": "2017-07-24",
+    "value": 0.8775,
+    "type": "alarm",
+    "component": "Tower",
+    "turbineId": 2
+  },
+  {
+    "date": "2018-01-17",
+    "value": 0.6725,
+    "type": "warning",
+    "component": "Tower",
+    "turbineId": 2
+  },
+  {
+    "date": "2019-01-12",
+    "value": 0.6676,
+    "type": "warning",
+    "component": "Tower",
+    "turbineId": 2
+  },
+  {
+    "date": "2020-01-07",
+    "value": 0.9357,
+    "type": "warning",
+    "component": "Tower",
+    "turbineId": 2
+  },
+  {
+    "date": "2020-01-10",
+    "value": 0.878,
+    "type": "alarm",
+    "component": "Tower",
+    "turbineId": 2
+  },
+  {
+    "date": "2021-01-01",
+    "value": 0.6603,
+    "type": "warning",
+    "component": "Tower",
+    "turbineId": 2
+  },
+  {
+    "date": "2022-06-28",
+    "value": 0.8863,
+    "type": "alarm",
+    "component": "Tower",
+    "turbineId": 2
+  },
+  {
+    "date": "2023-06-20",
+    "value": 0.6782,
+    "type": "warning",
+    "component": "Tower",
+    "turbineId": 2
+  },
+  {
+    "date": "2024-06-14",
+    "value": 0.6582,
+    "type": "warning",
+    "component": "Tower",
+    "turbineId": 2
+  },
+  {
+    "date": "2024-12-14",
+    "value": 0.8904,
+    "type": "alarm",
+    "component": "Tower",
+    "turbineId": 2
+  },
+  {
+    "date": "2016-07-10",
+    "value": 0.6596,
+    "type": "warning",
+    "component": "Transformer",
+    "turbineId": 2
+  },
+  {
+    "date": "2017-07-08",
+    "value": 0.8815,
+    "type": "alarm",
+    "component": "Transformer",
+    "turbineId": 2
+  },
+  {
+    "date": "2018-01-01",
+    "value": 0.6742,
+    "type": "warning",
+    "component": "Transformer",
+    "turbineId": 2
+  },
+  {
+    "date": "2018-06-30",
+    "value": 0.6608,
+    "type": "warning",
+    "component": "Transformer",
+    "turbineId": 2
+  },
+  {
+    "date": "2019-12-25",
+    "value": 0.8939,
+    "type": "alarm",
+    "component": "Transformer",
+    "turbineId": 2
+  },
+  {
+    "date": "2022-06-12",
+    "value": 0.8885,
+    "type": "alarm",
+    "component": "Transformer",
+    "turbineId": 2
+  },
+  {
+    "date": "2024-11-25",
+    "value": 0.9297,
+    "type": "warning",
+    "component": "Transformer",
+    "turbineId": 2
+  },
+  {
+    "date": "2024-11-28",
+    "value": 0.8808,
+    "type": "alarm",
+    "component": "Transformer",
+    "turbineId": 2
+  },
+  {
+    "date": "2016-06-23",
+    "value": 0.6692,
+    "type": "warning",
+    "component": "Transmission",
+    "turbineId": 2
+  },
+  {
+    "date": "2016-12-20",
+    "value": 0.6713,
+    "type": "warning",
+    "component": "Transmission",
+    "turbineId": 2
+  },
+  {
+    "date": "2017-06-21",
+    "value": 0.8864,
+    "type": "alarm",
+    "component": "Transmission",
+    "turbineId": 2
+  },
+  {
+    "date": "2019-06-08",
+    "value": 0.6609,
+    "type": "warning",
+    "component": "Transmission",
+    "turbineId": 2
+  },
+  {
+    "date": "2019-12-08",
+    "value": 0.8894,
+    "type": "alarm",
+    "component": "Transmission",
+    "turbineId": 2
+  },
+  {
+    "date": "2020-06-02",
+    "value": 0.6803,
+    "type": "warning",
+    "component": "Transmission",
+    "turbineId": 2
+  },
+  {
+    "date": "2020-11-29",
+    "value": 0.6618,
+    "type": "warning",
+    "component": "Transmission",
+    "turbineId": 2
+  },
+  {
+    "date": "2021-11-24",
+    "value": 0.6662,
+    "type": "warning",
+    "component": "Transmission",
+    "turbineId": 2
+  },
+  {
+    "date": "2022-05-26",
+    "value": 0.8816,
+    "type": "alarm",
+    "component": "Transmission",
+    "turbineId": 2
+  },
+  {
+    "date": "2024-05-12",
+    "value": 0.6721,
+    "type": "warning",
+    "component": "Transmission",
+    "turbineId": 2
+  },
+  {
+    "date": "2024-11-08",
+    "value": 0.9495,
+    "type": "warning",
+    "component": "Transmission",
+    "turbineId": 2
+  },
+  {
+    "date": "2024-11-11",
+    "value": 0.8763,
+    "type": "alarm",
+    "component": "Transmission",
+    "turbineId": 2
+  },
+  {
+    "date": "2017-06-26",
+    "value": 0.8962,
+    "type": "alarm",
+    "component": "Turbine",
+    "turbineId": 2
+  },
+  {
+    "date": "2019-12-13",
+    "value": 0.8912,
+    "type": "alarm",
+    "component": "Turbine",
+    "turbineId": 2
+  },
+  {
+    "date": "2020-12-04",
+    "value": 0.6624,
+    "type": "warning",
+    "component": "Turbine",
+    "turbineId": 2
+  },
+  {
+    "date": "2021-06-02",
+    "value": 0.6687,
+    "type": "warning",
+    "component": "Turbine",
+    "turbineId": 2
+  },
+  {
+    "date": "2021-11-29",
+    "value": 0.6692,
+    "type": "warning",
+    "component": "Turbine",
+    "turbineId": 2
+  },
+  {
+    "date": "2022-05-31",
+    "value": 0.8805,
+    "type": "alarm",
+    "component": "Turbine",
+    "turbineId": 2
+  },
+  {
+    "date": "2024-05-17",
+    "value": 0.6795,
+    "type": "warning",
+    "component": "Turbine",
+    "turbineId": 2
+  },
+  {
+    "date": "2024-11-16",
+    "value": 0.8946,
+    "type": "alarm",
+    "component": "Turbine",
+    "turbineId": 2
+  },
+  {
+    "date": "2025-05-12",
+    "value": 0.6597,
+    "type": "warning",
+    "component": "Turbine",
+    "turbineId": 2
+  },
+  {
+    "date": "2016-12-08",
+    "value": 0.6617,
+    "type": "warning",
+    "component": "Yaw",
+    "turbineId": 2
+  },
+  {
+    "date": "2017-06-09",
+    "value": 0.8834,
+    "type": "alarm",
+    "component": "Yaw",
+    "turbineId": 2
+  },
+  {
+    "date": "2019-05-27",
+    "value": 0.6836,
+    "type": "warning",
+    "component": "Yaw",
+    "turbineId": 2
+  },
+  {
+    "date": "2019-11-23",
+    "value": 0.9469,
+    "type": "warning",
+    "component": "Yaw",
+    "turbineId": 2
+  },
+  {
+    "date": "2019-11-26",
+    "value": 0.8939,
+    "type": "alarm",
+    "component": "Yaw",
+    "turbineId": 2
+  },
+  {
+    "date": "2022-05-14",
+    "value": 0.8956,
+    "type": "alarm",
+    "component": "Yaw",
+    "turbineId": 2
+  },
+  {
+    "date": "2023-11-02",
+    "value": 0.6687,
+    "type": "warning",
+    "component": "Yaw",
+    "turbineId": 2
+  },
+  {
+    "date": "2024-04-30",
+    "value": 0.6616,
+    "type": "warning",
+    "component": "Yaw",
+    "turbineId": 2
+  },
+  {
+    "date": "2024-10-30",
+    "value": 0.8977,
+    "type": "alarm",
+    "component": "Yaw",
+    "turbineId": 2
+  },
+  {
+    "date": "2025-04-25",
+    "value": 0.6701,
+    "type": "warning",
+    "component": "Yaw",
+    "turbineId": 2
+  },
+  {
+    "date": "2015-08-28",
+    "value": 0.675,
+    "type": "warning",
+    "component": "Converter",
+    "turbineId": 3
+  },
+  {
+    "date": "2016-08-22",
+    "value": 0.6727,
+    "type": "warning",
+    "component": "Converter",
+    "turbineId": 3
+  },
+  {
+    "date": "2017-08-17",
+    "value": 0.9435,
+    "type": "warning",
+    "component": "Converter",
+    "turbineId": 3
+  },
+  {
+    "date": "2017-08-20",
+    "value": 0.8888,
+    "type": "alarm",
+    "component": "Converter",
+    "turbineId": 3
+  },
+  {
+    "date": "2019-08-07",
+    "value": 0.6653,
+    "type": "warning",
+    "component": "Converter",
+    "turbineId": 3
+  },
+  {
+    "date": "2020-02-06",
+    "value": 0.875,
+    "type": "alarm",
+    "component": "Converter",
+    "turbineId": 3
+  },
+  {
+    "date": "2020-08-01",
+    "value": 0.6643,
+    "type": "warning",
+    "component": "Converter",
+    "turbineId": 3
+  },
+  {
+    "date": "2022-07-25",
+    "value": 0.8872,
+    "type": "alarm",
+    "component": "Converter",
+    "turbineId": 3
+  },
+  {
+    "date": "2024-01-13",
+    "value": 0.6591,
+    "type": "warning",
+    "component": "Converter",
+    "turbineId": 3
+  },
+  {
+    "date": "2024-07-11",
+    "value": 0.6679,
+    "type": "warning",
+    "component": "Converter",
+    "turbineId": 3
+  },
+  {
+    "date": "2025-01-07",
+    "value": 0.944,
+    "type": "warning",
+    "component": "Converter",
+    "turbineId": 3
+  },
+  {
+    "date": "2025-01-10",
+    "value": 0.8773,
+    "type": "alarm",
+    "component": "Converter",
+    "turbineId": 3
+  },
+  {
+    "date": "2015-08-10",
+    "value": 0.6708,
+    "type": "warning",
+    "component": "Generator",
+    "turbineId": 3
+  },
+  {
+    "date": "2017-08-02",
+    "value": 0.8783,
+    "type": "alarm",
+    "component": "Generator",
+    "turbineId": 3
+  },
+  {
+    "date": "2018-01-26",
+    "value": 0.675,
+    "type": "warning",
+    "component": "Generator",
+    "turbineId": 3
+  },
+  {
+    "date": "2018-07-25",
+    "value": 0.66,
+    "type": "warning",
+    "component": "Generator",
+    "turbineId": 3
+  },
+  {
+    "date": "2020-01-19",
+    "value": 0.879,
+    "type": "alarm",
+    "component": "Generator",
+    "turbineId": 3
+  },
+  {
+    "date": "2021-01-10",
+    "value": 0.6736,
+    "type": "warning",
+    "component": "Generator",
+    "turbineId": 3
+  },
+  {
+    "date": "2022-01-05",
+    "value": 0.67,
+    "type": "warning",
+    "component": "Generator",
+    "turbineId": 3
+  },
+  {
+    "date": "2022-07-04",
+    "value": 0.9442,
+    "type": "warning",
+    "component": "Generator",
+    "turbineId": 3
+  },
+  {
+    "date": "2022-07-07",
+    "value": 0.8933,
+    "type": "alarm",
+    "component": "Generator",
+    "turbineId": 3
+  },
+  {
+    "date": "2023-06-29",
+    "value": 0.6619,
+    "type": "warning",
+    "component": "Generator",
+    "turbineId": 3
+  },
+  {
+    "date": "2024-12-20",
+    "value": 0.9399,
+    "type": "warning",
+    "component": "Generator",
+    "turbineId": 3
+  },
+  {
+    "date": "2024-12-23",
+    "value": 0.8773,
+    "type": "alarm",
+    "component": "Generator",
+    "turbineId": 3
+  },
+  {
+    "date": "2016-01-27",
+    "value": 0.6608,
+    "type": "warning",
+    "component": "Nacelle",
+    "turbineId": 3
+  },
+  {
+    "date": "2016-07-25",
+    "value": 0.6787,
+    "type": "warning",
+    "component": "Nacelle",
+    "turbineId": 3
+  },
+  {
+    "date": "2017-07-23",
+    "value": 0.8947,
+    "type": "alarm",
+    "component": "Nacelle",
+    "turbineId": 3
+  },
+  {
+    "date": "2018-07-15",
+    "value": 0.6612,
+    "type": "warning",
+    "component": "Nacelle",
+    "turbineId": 3
+  },
+  {
+    "date": "2020-01-09",
+    "value": 0.8806,
+    "type": "alarm",
+    "component": "Nacelle",
+    "turbineId": 3
+  },
+  {
+    "date": "2020-12-31",
+    "value": 0.6672,
+    "type": "warning",
+    "component": "Nacelle",
+    "turbineId": 3
+  },
+  {
+    "date": "2021-06-29",
+    "value": 0.6638,
+    "type": "warning",
+    "component": "Nacelle",
+    "turbineId": 3
+  },
+  {
+    "date": "2022-06-27",
+    "value": 0.886,
+    "type": "alarm",
+    "component": "Nacelle",
+    "turbineId": 3
+  },
+  {
+    "date": "2023-06-19",
+    "value": 0.6724,
+    "type": "warning",
+    "component": "Nacelle",
+    "turbineId": 3
+  },
+  {
+    "date": "2024-12-13",
+    "value": 0.8826,
+    "type": "alarm",
+    "component": "Nacelle",
+    "turbineId": 3
+  },
+  {
+    "date": "2017-07-24",
+    "value": 0.8916,
+    "type": "alarm",
+    "component": "Rotor",
+    "turbineId": 3
+  },
+  {
+    "date": "2018-01-17",
+    "value": 0.6693,
+    "type": "warning",
+    "component": "Rotor",
+    "turbineId": 3
+  },
+  {
+    "date": "2019-01-12",
+    "value": 0.6658,
+    "type": "warning",
+    "component": "Rotor",
+    "turbineId": 3
+  },
+  {
+    "date": "2020-01-10",
+    "value": 0.879,
+    "type": "alarm",
+    "component": "Rotor",
+    "turbineId": 3
+  },
+  {
+    "date": "2020-07-05",
+    "value": 0.6721,
+    "type": "warning",
+    "component": "Rotor",
+    "turbineId": 3
+  },
+  {
+    "date": "2022-06-25",
+    "value": 0.9324,
+    "type": "warning",
+    "component": "Rotor",
+    "turbineId": 3
+  },
+  {
+    "date": "2022-06-28",
+    "value": 0.8915,
+    "type": "alarm",
+    "component": "Rotor",
+    "turbineId": 3
+  },
+  {
+    "date": "2023-12-17",
+    "value": 0.6623,
+    "type": "warning",
+    "component": "Rotor",
+    "turbineId": 3
+  },
+  {
+    "date": "2024-12-14",
+    "value": 0.8764,
+    "type": "alarm",
+    "component": "Rotor",
+    "turbineId": 3
+  },
+  {
+    "date": "2016-01-04",
+    "value": 0.676,
+    "type": "warning",
+    "component": "Tower",
+    "turbineId": 3
+  },
+  {
+    "date": "2017-06-27",
+    "value": 0.9373,
+    "type": "warning",
+    "component": "Tower",
+    "turbineId": 3
+  },
+  {
+    "date": "2017-06-30",
+    "value": 0.8965,
+    "type": "alarm",
+    "component": "Tower",
+    "turbineId": 3
+  },
+  {
+    "date": "2018-06-22",
+    "value": 0.6611,
+    "type": "warning",
+    "component": "Tower",
+    "turbineId": 3
+  },
+  {
+    "date": "2019-12-17",
+    "value": 0.8818,
+    "type": "alarm",
+    "component": "Tower",
+    "turbineId": 3
+  },
+  {
+    "date": "2022-06-04",
+    "value": 0.8893,
+    "type": "alarm",
+    "component": "Tower",
+    "turbineId": 3
+  },
+  {
+    "date": "2022-11-28",
+    "value": 0.6784,
+    "type": "warning",
+    "component": "Tower",
+    "turbineId": 3
+  },
+  {
+    "date": "2024-11-20",
+    "value": 0.8966,
+    "type": "alarm",
+    "component": "Tower",
+    "turbineId": 3
+  },
+  {
+    "date": "2025-05-16",
+    "value": 0.6628,
+    "type": "warning",
+    "component": "Tower",
+    "turbineId": 3
+  },
+  {
+    "date": "2016-06-25",
+    "value": 0.6767,
+    "type": "warning",
+    "component": "Transformer",
+    "turbineId": 3
+  },
+  {
+    "date": "2017-06-20",
+    "value": 0.9499,
+    "type": "warning",
+    "component": "Transformer",
+    "turbineId": 3
+  },
+  {
+    "date": "2017-06-23",
+    "value": 0.8919,
+    "type": "alarm",
+    "component": "Transformer",
+    "turbineId": 3
+  },
+  {
+    "date": "2017-12-17",
+    "value": 0.6613,
+    "type": "warning",
+    "component": "Transformer",
+    "turbineId": 3
+  },
+  {
+    "date": "2018-12-12",
+    "value": 0.6819,
+    "type": "warning",
+    "component": "Transformer",
+    "turbineId": 3
+  },
+  {
+    "date": "2019-06-10",
+    "value": 0.6794,
+    "type": "warning",
+    "component": "Transformer",
+    "turbineId": 3
+  },
+  {
+    "date": "2019-12-10",
+    "value": 0.8924,
+    "type": "alarm",
+    "component": "Transformer",
+    "turbineId": 3
+  },
+  {
+    "date": "2020-12-01",
+    "value": 0.6766,
+    "type": "warning",
+    "component": "Transformer",
+    "turbineId": 3
+  },
+  {
+    "date": "2022-05-28",
+    "value": 0.8942,
+    "type": "alarm",
+    "component": "Transformer",
+    "turbineId": 3
+  },
+  {
+    "date": "2022-11-21",
+    "value": 0.672,
+    "type": "warning",
+    "component": "Transformer",
+    "turbineId": 3
+  },
+  {
+    "date": "2023-11-16",
+    "value": 0.6729,
+    "type": "warning",
+    "component": "Transformer",
+    "turbineId": 3
+  },
+  {
+    "date": "2024-11-10",
+    "value": 0.9521,
+    "type": "warning",
+    "component": "Transformer",
+    "turbineId": 3
+  },
+  {
+    "date": "2024-11-13",
+    "value": 0.8789,
+    "type": "alarm",
+    "component": "Transformer",
+    "turbineId": 3
+  },
+  {
+    "date": "2025-05-09",
+    "value": 0.6631,
+    "type": "warning",
+    "component": "Transformer",
+    "turbineId": 3
+  },
+  {
+    "date": "2017-05-26",
+    "value": 0.8871,
+    "type": "alarm",
+    "component": "Transmission",
+    "turbineId": 3
+  },
+  {
+    "date": "2019-11-12",
+    "value": 0.8979,
+    "type": "alarm",
+    "component": "Transmission",
+    "turbineId": 3
+  },
+  {
+    "date": "2022-04-30",
+    "value": 0.8921,
+    "type": "alarm",
+    "component": "Transmission",
+    "turbineId": 3
+  },
+  {
+    "date": "2024-10-13",
+    "value": 0.9324,
+    "type": "warning",
+    "component": "Transmission",
+    "turbineId": 3
+  },
+  {
+    "date": "2024-10-16",
+    "value": 0.8821,
+    "type": "alarm",
+    "component": "Transmission",
+    "turbineId": 3
+  },
+  {
+    "date": "2025-04-11",
+    "value": 0.6604,
+    "type": "warning",
+    "component": "Transmission",
+    "turbineId": 3
+  },
+  {
+    "date": "2015-06-01",
+    "value": 0.6813,
+    "type": "warning",
+    "component": "Turbine",
+    "turbineId": 3
+  },
+  {
+    "date": "2016-05-26",
+    "value": 0.6829,
+    "type": "warning",
+    "component": "Turbine",
+    "turbineId": 3
+  },
+  {
+    "date": "2016-11-22",
+    "value": 0.6823,
+    "type": "warning",
+    "component": "Turbine",
+    "turbineId": 3
+  },
+  {
+    "date": "2017-05-24",
+    "value": 0.8949,
+    "type": "alarm",
+    "component": "Turbine",
+    "turbineId": 3
+  },
+  {
+    "date": "2019-11-07",
+    "value": 0.9556,
+    "type": "warning",
+    "component": "Turbine",
+    "turbineId": 3
+  },
+  {
+    "date": "2019-11-10",
+    "value": 0.8909,
+    "type": "alarm",
+    "component": "Turbine",
+    "turbineId": 3
+  },
+  {
+    "date": "2021-04-30",
+    "value": 0.671,
+    "type": "warning",
+    "component": "Turbine",
+    "turbineId": 3
+  },
+  {
+    "date": "2021-10-27",
+    "value": 0.6799,
+    "type": "warning",
+    "component": "Turbine",
+    "turbineId": 3
+  },
+  {
+    "date": "2022-04-28",
+    "value": 0.9016,
+    "type": "alarm",
+    "component": "Turbine",
+    "turbineId": 3
+  },
+  {
+    "date": "2024-10-14",
+    "value": 0.8823,
+    "type": "alarm",
+    "component": "Turbine",
+    "turbineId": 3
+  },
+  {
+    "date": "2017-05-09",
+    "value": 0.8969,
+    "type": "alarm",
+    "component": "Yaw",
+    "turbineId": 3
+  },
+  {
+    "date": "2018-05-01",
+    "value": 0.663,
+    "type": "warning",
+    "component": "Yaw",
+    "turbineId": 3
+  },
+  {
+    "date": "2019-10-26",
+    "value": 0.8839,
+    "type": "alarm",
+    "component": "Yaw",
+    "turbineId": 3
+  },
+  {
+    "date": "2021-04-15",
+    "value": 0.6698,
+    "type": "warning",
+    "component": "Yaw",
+    "turbineId": 3
+  },
+  {
+    "date": "2022-04-13",
+    "value": 0.8884,
+    "type": "alarm",
+    "component": "Yaw",
+    "turbineId": 3
+  },
+  {
+    "date": "2024-09-26",
+    "value": 0.9394,
+    "type": "warning",
+    "component": "Yaw",
+    "turbineId": 3
+  },
+  {
+    "date": "2024-09-29",
+    "value": 0.9024,
+    "type": "alarm",
+    "component": "Yaw",
+    "turbineId": 3
+  },
+  {
+    "date": "2016-08-14",
+    "value": 0.6615,
+    "type": "warning",
+    "component": "Converter",
+    "turbineId": 4
+  },
+  {
+    "date": "2017-02-10",
+    "value": 0.6611,
+    "type": "warning",
+    "component": "Converter",
+    "turbineId": 4
+  },
+  {
+    "date": "2017-08-12",
+    "value": 0.8867,
+    "type": "alarm",
+    "component": "Converter",
+    "turbineId": 4
+  },
+  {
+    "date": "2018-02-05",
+    "value": 0.6617,
+    "type": "warning",
+    "component": "Converter",
+    "turbineId": 4
+  },
+  {
+    "date": "2019-07-30",
+    "value": 0.6623,
+    "type": "warning",
+    "component": "Converter",
+    "turbineId": 4
+  },
+  {
+    "date": "2020-01-26",
+    "value": 0.939,
+    "type": "warning",
+    "component": "Converter",
+    "turbineId": 4
+  },
+  {
+    "date": "2020-01-29",
+    "value": 0.8863,
+    "type": "alarm",
+    "component": "Converter",
+    "turbineId": 4
+  },
+  {
+    "date": "2022-01-15",
+    "value": 0.6647,
+    "type": "warning",
+    "component": "Converter",
+    "turbineId": 4
+  },
+  {
+    "date": "2022-07-14",
+    "value": 0.9308,
+    "type": "warning",
+    "component": "Converter",
+    "turbineId": 4
+  },
+  {
+    "date": "2022-07-17",
+    "value": 0.8934,
+    "type": "alarm",
+    "component": "Converter",
+    "turbineId": 4
+  },
+  {
+    "date": "2024-07-03",
+    "value": 0.6658,
+    "type": "warning",
+    "component": "Converter",
+    "turbineId": 4
+  },
+  {
+    "date": "2025-01-02",
+    "value": 0.891,
+    "type": "alarm",
+    "component": "Converter",
+    "turbineId": 4
+  },
+  {
+    "date": "2015-07-30",
+    "value": 0.6703,
+    "type": "warning",
+    "component": "Generator",
+    "turbineId": 4
+  },
+  {
+    "date": "2016-07-24",
+    "value": 0.6666,
+    "type": "warning",
+    "component": "Generator",
+    "turbineId": 4
+  },
+  {
+    "date": "2017-01-20",
+    "value": 0.6711,
+    "type": "warning",
+    "component": "Generator",
+    "turbineId": 4
+  },
+  {
+    "date": "2017-07-19",
+    "value": 0.9483,
+    "type": "warning",
+    "component": "Generator",
+    "turbineId": 4
+  },
+  {
+    "date": "2017-07-22",
+    "value": 0.8858,
+    "type": "alarm",
+    "component": "Generator",
+    "turbineId": 4
+  },
+  {
+    "date": "2020-01-08",
+    "value": 0.884,
+    "type": "alarm",
+    "component": "Generator",
+    "turbineId": 4
+  },
+  {
+    "date": "2022-06-23",
+    "value": 0.9439,
+    "type": "warning",
+    "component": "Generator",
+    "turbineId": 4
+  },
+  {
+    "date": "2022-06-26",
+    "value": 0.8945,
+    "type": "alarm",
+    "component": "Generator",
+    "turbineId": 4
+  },
+  {
+    "date": "2024-12-12",
+    "value": 0.8922,
+    "type": "alarm",
+    "component": "Generator",
+    "turbineId": 4
+  },
+  {
+    "date": "2015-07-02",
+    "value": 0.6601,
+    "type": "warning",
+    "component": "Nacelle",
+    "turbineId": 4
+  },
+  {
+    "date": "2016-06-26",
+    "value": 0.6774,
+    "type": "warning",
+    "component": "Nacelle",
+    "turbineId": 4
+  },
+  {
+    "date": "2017-06-24",
+    "value": 0.8845,
+    "type": "alarm",
+    "component": "Nacelle",
+    "turbineId": 4
+  },
+  {
+    "date": "2019-12-11",
+    "value": 0.8892,
+    "type": "alarm",
+    "component": "Nacelle",
+    "turbineId": 4
+  },
+  {
+    "date": "2021-05-31",
+    "value": 0.6648,
+    "type": "warning",
+    "component": "Nacelle",
+    "turbineId": 4
+  },
+  {
+    "date": "2022-05-29",
+    "value": 0.8817,
+    "type": "alarm",
+    "component": "Nacelle",
+    "turbineId": 4
+  },
+  {
+    "date": "2023-11-17",
+    "value": 0.6653,
+    "type": "warning",
+    "component": "Nacelle",
+    "turbineId": 4
+  },
+  {
+    "date": "2024-11-14",
+    "value": 0.8764,
+    "type": "alarm",
+    "component": "Nacelle",
+    "turbineId": 4
+  },
+  {
+    "date": "2015-07-03",
+    "value": 0.6821,
+    "type": "warning",
+    "component": "Rotor",
+    "turbineId": 4
+  },
+  {
+    "date": "2017-06-25",
+    "value": 0.8874,
+    "type": "alarm",
+    "component": "Rotor",
+    "turbineId": 4
+  },
+  {
+    "date": "2018-06-17",
+    "value": 0.6806,
+    "type": "warning",
+    "component": "Rotor",
+    "turbineId": 4
+  },
+  {
+    "date": "2019-12-12",
+    "value": 0.8869,
+    "type": "alarm",
+    "component": "Rotor",
+    "turbineId": 4
+  },
+  {
+    "date": "2021-06-01",
+    "value": 0.6775,
+    "type": "warning",
+    "component": "Rotor",
+    "turbineId": 4
+  },
+  {
+    "date": "2022-05-30",
+    "value": 0.8958,
+    "type": "alarm",
+    "component": "Rotor",
+    "turbineId": 4
+  },
+  {
+    "date": "2024-11-15",
+    "value": 0.8871,
+    "type": "alarm",
+    "component": "Rotor",
+    "turbineId": 4
+  },
+  {
+    "date": "2016-12-13",
+    "value": 0.6823,
+    "type": "warning",
+    "component": "Tower",
+    "turbineId": 4
+  },
+  {
+    "date": "2017-06-14",
+    "value": 0.8794,
+    "type": "alarm",
+    "component": "Tower",
+    "turbineId": 4
+  },
+  {
+    "date": "2019-12-01",
+    "value": 0.8803,
+    "type": "alarm",
+    "component": "Tower",
+    "turbineId": 4
+  },
+  {
+    "date": "2020-11-22",
+    "value": 0.6616,
+    "type": "warning",
+    "component": "Tower",
+    "turbineId": 4
+  },
+  {
+    "date": "2022-05-19",
+    "value": 0.8836,
+    "type": "alarm",
+    "component": "Tower",
+    "turbineId": 4
+  },
+  {
+    "date": "2023-05-11",
+    "value": 0.6767,
+    "type": "warning",
+    "component": "Tower",
+    "turbineId": 4
+  },
+  {
+    "date": "2023-11-07",
+    "value": 0.6736,
+    "type": "warning",
+    "component": "Tower",
+    "turbineId": 4
+  },
+  {
+    "date": "2024-05-05",
+    "value": 0.664,
+    "type": "warning",
+    "component": "Tower",
+    "turbineId": 4
+  },
+  {
+    "date": "2024-11-04",
+    "value": 0.8832,
+    "type": "alarm",
+    "component": "Tower",
+    "turbineId": 4
+  },
+  {
+    "date": "2015-06-09",
+    "value": 0.6647,
+    "type": "warning",
+    "component": "Transformer",
+    "turbineId": 4
+  },
+  {
+    "date": "2017-06-01",
+    "value": 0.8933,
+    "type": "alarm",
+    "component": "Transformer",
+    "turbineId": 4
+  },
+  {
+    "date": "2019-05-19",
+    "value": 0.679,
+    "type": "warning",
+    "component": "Transformer",
+    "turbineId": 4
+  },
+  {
+    "date": "2019-11-15",
+    "value": 0.9532,
+    "type": "warning",
+    "component": "Transformer",
+    "turbineId": 4
+  },
+  {
+    "date": "2019-11-18",
+    "value": 0.8915,
+    "type": "alarm",
+    "component": "Transformer",
+    "turbineId": 4
+  },
+  {
+    "date": "2020-05-13",
+    "value": 0.6647,
+    "type": "warning",
+    "component": "Transformer",
+    "turbineId": 4
+  },
+  {
+    "date": "2022-05-03",
+    "value": 0.9422,
+    "type": "warning",
+    "component": "Transformer",
+    "turbineId": 4
+  },
+  {
+    "date": "2022-05-06",
+    "value": 0.8971,
+    "type": "alarm",
+    "component": "Transformer",
+    "turbineId": 4
+  },
+  {
+    "date": "2024-10-22",
+    "value": 0.8814,
+    "type": "alarm",
+    "component": "Transformer",
+    "turbineId": 4
+  },
+  {
+    "date": "2016-05-18",
+    "value": 0.6761,
+    "type": "warning",
+    "component": "Transmission",
+    "turbineId": 4
+  },
+  {
+    "date": "2017-05-16",
+    "value": 0.9008,
+    "type": "alarm",
+    "component": "Transmission",
+    "turbineId": 4
+  },
+  {
+    "date": "2019-11-02",
+    "value": 0.8828,
+    "type": "alarm",
+    "component": "Transmission",
+    "turbineId": 4
+  },
+  {
+    "date": "2022-04-20",
+    "value": 0.8986,
+    "type": "alarm",
+    "component": "Transmission",
+    "turbineId": 4
+  },
+  {
+    "date": "2023-04-12",
+    "value": 0.6843,
+    "type": "warning",
+    "component": "Transmission",
+    "turbineId": 4
+  },
+  {
+    "date": "2024-04-06",
+    "value": 0.6774,
+    "type": "warning",
+    "component": "Transmission",
+    "turbineId": 4
+  },
+  {
+    "date": "2024-10-06",
+    "value": 0.8932,
+    "type": "alarm",
+    "component": "Transmission",
+    "turbineId": 4
+  },
+  {
+    "date": "2017-05-08",
+    "value": 0.9554,
+    "type": "warning",
+    "component": "Turbine",
+    "turbineId": 4
+  },
+  {
+    "date": "2017-05-11",
+    "value": 0.8985,
+    "type": "alarm",
+    "component": "Turbine",
+    "turbineId": 4
+  },
+  {
+    "date": "2018-10-30",
+    "value": 0.6738,
+    "type": "warning",
+    "component": "Turbine",
+    "turbineId": 4
+  },
+  {
+    "date": "2019-10-28",
+    "value": 0.8861,
+    "type": "alarm",
+    "component": "Turbine",
+    "turbineId": 4
+  },
+  {
+    "date": "2020-04-22",
+    "value": 0.673,
+    "type": "warning",
+    "component": "Turbine",
+    "turbineId": 4
+  },
+  {
+    "date": "2020-10-19",
+    "value": 0.6802,
+    "type": "warning",
+    "component": "Turbine",
+    "turbineId": 4
+  },
+  {
+    "date": "2021-04-17",
+    "value": 0.6775,
+    "type": "warning",
+    "component": "Turbine",
+    "turbineId": 4
+  },
+  {
+    "date": "2022-04-12",
+    "value": 0.9546,
+    "type": "warning",
+    "component": "Turbine",
+    "turbineId": 4
+  },
+  {
+    "date": "2022-04-15",
+    "value": 0.8798,
+    "type": "alarm",
+    "component": "Turbine",
+    "turbineId": 4
+  },
+  {
+    "date": "2023-04-07",
+    "value": 0.6625,
+    "type": "warning",
+    "component": "Turbine",
+    "turbineId": 4
+  },
+  {
+    "date": "2023-10-04",
+    "value": 0.6875,
+    "type": "warning",
+    "component": "Turbine",
+    "turbineId": 4
+  },
+  {
+    "date": "2024-10-01",
+    "value": 0.8827,
+    "type": "alarm",
+    "component": "Turbine",
+    "turbineId": 4
+  },
+  {
+    "date": "2017-04-16",
+    "value": 0.8954,
+    "type": "alarm",
+    "component": "Yaw",
+    "turbineId": 4
+  },
+  {
+    "date": "2018-04-08",
+    "value": 0.6683,
+    "type": "warning",
+    "component": "Yaw",
+    "turbineId": 4
+  },
+  {
+    "date": "2018-10-05",
+    "value": 0.6891,
+    "type": "warning",
+    "component": "Yaw",
+    "turbineId": 4
+  },
+  {
+    "date": "2019-10-03",
+    "value": 0.9013,
+    "type": "alarm",
+    "component": "Yaw",
+    "turbineId": 4
+  },
+  {
+    "date": "2020-03-28",
+    "value": 0.6759,
+    "type": "warning",
+    "component": "Yaw",
+    "turbineId": 4
+  },
+  {
+    "date": "2020-09-24",
+    "value": 0.6786,
+    "type": "warning",
+    "component": "Yaw",
+    "turbineId": 4
+  },
+  {
+    "date": "2021-03-23",
+    "value": 0.6653,
+    "type": "warning",
+    "component": "Yaw",
+    "turbineId": 4
+  },
+  {
+    "date": "2022-03-21",
+    "value": 0.9032,
+    "type": "alarm",
+    "component": "Yaw",
+    "turbineId": 4
+  },
+  {
+    "date": "2024-09-06",
+    "value": 0.9042,
+    "type": "alarm",
+    "component": "Yaw",
+    "turbineId": 4
+  },
+  {
+    "date": "2025-03-02",
+    "value": 0.6696,
+    "type": "warning",
+    "component": "Yaw",
+    "turbineId": 4
+  }
+]

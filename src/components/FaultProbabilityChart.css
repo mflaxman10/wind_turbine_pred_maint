@@ -1,0 +1,288 @@
+.fault-probability-chart-container {
+  background-color: var(--card-background);
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.chart-area {
+  height: 500px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.chart-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.indicators-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.indicator {
+  position: absolute;
+  transform: translate(-50%, 0);
+  z-index: 10;
+}
+
+.indicator-pin {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+}
+
+.indicator-line {
+  position: absolute;
+  width: 2px;
+  top: 6px;
+  left: 5px;
+  bottom: 0;
+  z-index: 1;
+}
+
+.indicator.alarm .indicator-pin {
+  background-color: var(--offline-color);
+  box-shadow: 0 0 5px rgba(234, 67, 53, 0.7);
+}
+
+.indicator.alarm .indicator-line {
+  background-color: var(--offline-color);
+  height: calc(100vh - 250px);
+}
+
+.indicator.warning .indicator-pin {
+  background-color: var(--maintenance-color);
+  box-shadow: 0 0 5px rgba(251, 188, 5, 0.7);
+}
+
+.indicator.warning .indicator-line {
+  background-color: var(--maintenance-color);
+  height: 100px;
+}
+
+.chart-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  gap: 10px;
+}
+
+.time-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  margin-top: 10px;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+}
+
+.time-slider {
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+.time-labels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  color: var(--text-light);
+}
+
+.time-range-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.time-range-buttons button {
+  padding: 10px 16px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s;
+  min-width: 120px;
+  font-weight: 500;
+  color: #333;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  position: relative;
+}
+
+.time-range-buttons button svg {
+  width: 18px;
+  height: 18px;
+}
+
+/* Tooltip styles */
+.tooltip {
+  position: relative;
+}
+
+.tooltip .tooltip-text {
+  visibility: hidden;
+  width: 180px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 1.4;
+  pointer-events: none;
+}
+
+.tooltip .tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #333 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Styles for marker leader lines */
+.leader-line {
+  position: absolute;
+  width: 2px;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  pointer-events: none;
+  transform: translateX(-1px); /* Center the line precisely under markers */
+  margin-left: 0;
+}
+
+.leader-line.alarm {
+  background-color: rgba(255, 0, 0, 0.7);
+  width: 2.5px;
+  margin-top: 6px; /* Start a bit below the marker */
+}
+
+.leader-line.warning {
+  background-color: rgba(255, 204, 0, 0.7);
+  width: 2.5px;
+  margin-top: 6px; /* Start a bit below the marker */
+}
+
+.time-range-buttons button:hover {
+  background-color: #e9ecef;
+  border-color: #ced4da;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+.time-range-buttons button:active {
+  background-color: #dee2e6;
+  transform: translateY(0);
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.component-selector select, .granularity-control select {
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  background-color: white;
+  font-size: 14px;
+  min-width: 120px;
+}
+
+.component-selector, .granularity-control {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.granularity-control {
+  background-color: #f8f9fa;
+  padding: 10px 16px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.chart-legend {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  gap: 1.5rem;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.legend-color {
+  width: 16px;
+  height: 3px;
+  margin-right: 0.5rem;
+  border-radius: 1px;
+}
+
+.legend-color.health-index {
+  background-color: rgba(30, 55, 153, 1);
+}
+
+.legend-color.alarm {
+  background-color: var(--offline-color);
+}
+
+.legend-color.warning {
+  background-color: var(--maintenance-color);
+}
+
+@media (max-width: 768px) {
+  .chart-controls {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .time-range-buttons {
+    margin: 10px 0;
+  }
+  
+  .chart-area {
+    height: 300px;
+  }
+  
+  .chart-container {
+    height: 250px;
+  }
+}

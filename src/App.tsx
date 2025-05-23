@@ -1,5 +1,16 @@
 import { useState } from 'react'
 import './App.css'
+import FaultProbabilityChart from './components/FaultProbabilityChart'
+import CrewScheduleGantt from './components/CrewScheduleGantt'
+import MaintenanceChat from './components/MaintenanceChat'
+
+// Define shared timeline types
+interface TimeRange {
+  start: Date;
+  end: Date;
+}
+
+type GranularityType = 'day' | 'week' | 'month' | 'quarter' | 'year';
 
 // Define interfaces for our data structures
 interface TurbineComponent {
@@ -31,6 +42,13 @@ interface MaintenanceTask {
 }
 
 function App() {
+  // Shared timeline state
+  const [timeRange, setTimeRange] = useState<TimeRange>({
+    start: new Date(new Date().setFullYear(new Date().getFullYear() - 1)), // Default to 1 year ago
+    end: new Date() // Default to today
+  });
+  const [granularity, setGranularity] = useState<GranularityType>('month');
+  
   // State for turbines and maintenance tasks
   const [turbines, setTurbines] = useState<WindTurbine[]>([
     { 
@@ -208,88 +226,117 @@ function App() {
       </header>
 
       <main className="dashboard-layout">
-        {/* Left Sidebar with Expandable Asset List */}
-        <aside className="sidebar">
-          <div className="search-container">
-            <input 
-              type="text" 
-              placeholder="Search assets..." 
-              value={searchTerm} 
-              onChange={(e) => setSearchTerm(e.target.value)}
-              className="search-input"
-            />
-          </div>
-          
-          <div className="asset-list-header">
-            <span className="asset-name-col">Asset Name</span>
-            <span className="asset-status-col">Status</span>
-          </div>
-          
-          <ul className="asset-list">
-            {filteredTurbines.map(turbine => (
-              <li key={turbine.id} className={selectedTurbine === turbine.id ? 'selected-asset' : ''}>
-                <div 
-                  className="asset-list-item"
-                  onClick={() => handleTurbineSelect(turbine.id)}
-                >
-                  <span className="asset-expand-col">
-                    <button 
-                      className={`expand-toggle ${turbine.expanded ? 'expanded' : ''}`}
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        toggleExpand(turbine.id);
-                      }}
-                      aria-label="Toggle expansion"
-                    >
-                      {turbine.expanded ? '▼' : '▶'}
-                    </button>
-                  </span>
-                  <span className="asset-name-col">{turbine.name}</span>
-                  <span className="asset-status-col">
-                    <span className={`status-indicator ${turbine.status}`} title={turbine.status}></span>
-                  </span>
-                </div>
-                
-                {turbine.expanded && (
-                  <div className="asset-details">
-                    <div className="asset-info">
-                      <p><strong>Location:</strong> {turbine.location}</p>
-                      <p><strong>Last Maintenance Type:</strong> {turbine.lastMaintenanceType}</p>
-                      <p><strong>Last Maintenance Date:</strong> {turbine.lastMaintenanceDate}</p>
-                    </div>
-                    
-                    <div className="components-list">
-                      <h4>Components</h4>
-                      <table className="component-table">
-                        <thead>
-                          <tr>
-                            <th>Component</th>
-                            <th>Status</th>
-                            <th>Last Inspection</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          {turbine.components.map(component => (
-                            <tr key={component.id} className="component-item">
-                              <td className="component-name">{component.name}</td>
-                              <td className="component-status">
-                                <span className={`status-indicator ${component.status}`} title={component.status}></span>
-                              </td>
-                              <td className="component-date">{component.lastInspection}</td>
-                            </tr>
-                          ))}
-                        </tbody>
-                      </table>
-                    </div>
+        {/* Left Column with Asset List and Chat */}
+        <aside className="left-column">
+          {/* Asset Selector Panel */}
+          <div className="sidebar">
+            <div className="search-container">
+              <input 
+                type="text" 
+                placeholder="Search assets..." 
+                value={searchTerm} 
+                onChange={(e) => setSearchTerm(e.target.value)}
+                className="search-input"
+              />
+            </div>
+            
+            <div className="asset-list-header">
+              <span className="asset-name-col">Asset Name</span>
+              <span className="asset-status-col">Status</span>
+            </div>
+            
+            <ul className="asset-list">
+              {filteredTurbines.map(turbine => (
+                <li key={turbine.id} className={selectedTurbine === turbine.id ? 'selected-asset' : ''}>
+                  <div 
+                    className="asset-list-item"
+                    onClick={() => handleTurbineSelect(turbine.id)}
+                  >
+                    <span className="asset-expand-col">
+                      <button 
+                        className={`expand-toggle ${turbine.expanded ? 'expanded' : ''}`}
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          toggleExpand(turbine.id);
+                        }}
+                        aria-label="Toggle expansion"
+                      >
+                        {turbine.expanded ? '▼' : '▶'}
+                      </button>
+                    </span>
+                    <span className="asset-name-col">{turbine.name}</span>
+                    <span className="asset-status-col">
+                      <span className={`status-indicator ${turbine.status}`} title={turbine.status}></span>
+                    </span>
                   </div>
-                )}
-              </li>
-            ))}
-          </ul>
+                  
+                  {turbine.expanded && (
+                    <div className="asset-details">
+                      <div className="asset-info">
+                        <p><strong>Location:</strong> {turbine.location}</p>
+                        <p><strong>Last Maintenance Type:</strong> {turbine.lastMaintenanceType}</p>
+                        <p><strong>Last Maintenance Date:</strong> {turbine.lastMaintenanceDate}</p>
+                      </div>
+                      
+                      <div className="components-list">
+                        <h4>Components</h4>
+                        <table className="component-table">
+                          <thead>
+                            <tr>
+                              <th>Component</th>
+                              <th>Status</th>
+                              <th>Last Inspection</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {turbine.components.map(component => (
+                              <tr key={component.id} className="component-item">
+                                <td className="component-name">{component.name}</td>
+                                <td className="component-status">
+                                  <span className={`status-indicator ${component.status}`} title={component.status}></span>
+                                </td>
+                                <td className="component-date">{component.lastInspection}</td>
+                              </tr>
+                            ))}
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </div>
+          
+          {/* Maintenance Chat Assistant */}
+          <div className="maintenance-chat-wrapper">
+            <MaintenanceChat turbineId={selectedTurbine} />
+          </div>
         </aside>
         
         {/* Right Content Area */}
         <div className="main-content">
+          {/* Fault Probability Chart */}
+          <section className="fault-probability-section">
+            <FaultProbabilityChart 
+              turbineId={selectedTurbine} 
+              timeRange={timeRange}
+              granularity={granularity}
+              onTimeRangeChange={setTimeRange}
+              onGranularityChange={setGranularity}
+            />
+          </section>
+          
+          {/* Crew Schedule Gantt Chart */}
+          <section className="crew-schedule-section">
+            <CrewScheduleGantt 
+              turbineId={selectedTurbine} 
+              timeRange={timeRange}
+              granularity={granularity}
+              onTimeRangeChange={setTimeRange}
+              onGranularityChange={setGranularity}
+            />
+          </section>
           <section className="maintenance-schedule">
             <div className="section-header">
               <h2>{selectedTurbine 

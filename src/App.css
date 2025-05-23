@@ -60,11 +60,38 @@ header p {
   opacity: 0.9;
 }
 
-/* Main Layout */
+/* Dashboard Layout */
 .dashboard-layout {
-  display: grid;
-  grid-template-columns: 300px 1fr;
-  gap: 2rem;
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.left-column {
+  width: 330px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-height: calc(100vh - 100px); /* Increased height by reducing subtracted pixels */
+  min-height: 700px; /* Added minimum height to ensure adequate space */
+}
+
+.sidebar {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  flex: 2; /* Increased from 1 to 2 to give more space to sidebar */
+  overflow-y: auto;
+  max-height: 65%; /* Increased from 50% to 65% */
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 section {
@@ -245,7 +272,14 @@ section h2 {
 .main-content {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1.5rem;
+  overflow: hidden;
+}
+
+/* Fault Probability Section */
+.fault-probability-section {
+  width: 100%;
+  overflow: hidden;
 }
 
 /* Maintenance schedule styles */
@@ -305,6 +339,53 @@ section h2 {
 .priority.low {
   background-color: rgba(52, 168, 83, 0.1);
   color: var(--priority-low);
+}
+
+/* Chart sections */
+.fault-probability-section,
+.crew-schedule-section {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.crew-schedule-section {
+  height: 400px;
+  overflow: hidden;
+}
+
+/* Maintenance Chat Layout */
+.maintenance-chat-wrapper {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  flex: 1; /* Keep at 1 to balance with sidebar's flex: 2 */
+  min-height: 350px; /* Reduced slightly to complement the taller sidebar */
+  max-height: 35%; /* Ensure it takes no more than 35% to complement sidebar's 65% */
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .dashboard-layout {
+    flex-direction: column;
+  }
+  
+  .left-column {
+    width: 100%;
+    max-height: none;
+  }
+  
+  .sidebar {
+    max-height: 400px;
+  }
+  
+  .maintenance-chat-wrapper {
+    height: 400px;
+  }
 }
 
 /* Checkbox styles */

@@ -1,0 +1,22 @@
+{
+  "startDate": "2015-05-22",
+  "endDate": "2025-05-22",
+  "totalDays": 3653,
+  "components": [
+    "Converter",
+    "Generator",
+    "Nacelle",
+    "Rotor",
+    "Tower",
+    "Transformer",
+    "Transmission",
+    "Turbine",
+    "Yaw"
+  ],
+  "turbineIds": [
+    1,
+    2,
+    3,
+    4
+  ]
+}
